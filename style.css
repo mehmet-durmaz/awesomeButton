@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+.container{
+    perspective: 360px;
+}
+
+.btn{
+    display: block;
+    margin: 40px 0;
+    height: 80px;
+    width: 240px;
+    background-color: crimson;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    color: ivory;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+
+.btn1:hover{
+    transform: rotateX(15deg);
+    box-shadow: 0 15px 15px crimson;
+}
+.btn2:hover{
+    transform: rotateX(-15deg);
+    box-shadow: 0 -15px 15px crimson;
+}
+.btn3:hover{
+    transform: rotateY(15deg);
+    box-shadow: -15px 0 15px crimson;
+}
+.btn4:hover{
+    transform: rotateY(-15deg);
+    box-shadow: 15px 0 15px crimson;
+
+}
